@@ -1,0 +1,17 @@
+
+Main: .Normal weight, overweight, and obesity among adults: United States, selected years 1988–1994 through 2011–2014 (both sexes)
+
+点一下: 
+1. Normal weight among adults aged 20 and over, by age group: United States, selected years 1988–1994 through 2011–2014 (both sexes)
+2. Over weight among adults aged 20 and over, by age group: United States, selected years 1988–1994 through 2011–2014 (both sexes)
+3. Grade1 Obesity among adults aged 20 and over, by age group: United States, selected years 1988–1994 through 2011–2014 (both sexes)
+4. Grade2 Obesity among adults aged 20 and over, by age group: United States, selected years 1988–1994 through 2011–2014 (both sexes)
+5. Grade3 Obesity among adults aged 20 and over, by age group: United States, selected years 1988–1994 through 2011–2014 (both sexes)
+
+再点一下：
+1. Normal weight among adults aged 20 -34: United States, selected years 1988–1994 through 2011–2014 (both sexes）
+2. Normal weight among adults aged 35-44: United States, selected years 1988–1994 through 2011–2014 (both sexes)
+3. Normal weight among adults aged 20 -34: United States, selected years 1988–1994 through 2011–2014 (both sexes）
+4. Normal weight among adults aged 45-54: United States, selected years 1988–1994 through 2011–2014 (both sexes）
+5. Normal weight among adults aged 55-64: United States, selected years 1988–1994 through 2011–2014 (both sexes）
+6. Normal weight among adults aged 75+: United States, selected years 1988–1994 through 2011–2014 (both sexes）

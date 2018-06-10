@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>Project #2</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.3/css/bootstrap-slider.min.css">
+    <style>
+    .bar {
+        fill: steelblue;
+    }
+    
+    .indicator {
+        float: left;
+    }
+    
+    svg {
+        margin: auto;
+    }
+    
+    body {
+        font-family: 'Alegreya Sans', Calibri, sans-serif;
+        padding-top: 70px;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Info5100 Project #2</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#graph1">First Graph</a></li>
+                    <li><a href="#graph2">Sec Graph</a></li>
+                    
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron" id="graph1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="topic">Prevalence of obesity</h1>
+                        <p class="description">What is Obesity? It is defined as abnormal or excessive fat accumulation that may impair health. BMI, shorted for body mass index , means the weight in kilograms divided by the square of the height in meters . BMI is universally used as an index to classify overweight and obesity in adults. In this visualization, data used for obesity is based on BMI equal to or more than 30, which is defined by World Health Organization. </p>
+                    </div>
+                </div>
+                <div class="row container">
+                    <div class="col-1"></div>
+                    <div class="col-6 center-block">
+                        <p>Year</p>
+                        <input id="yearslider" type="text" style="width:700px;" />
+                    </div>
+                </div>
+                <div class="row">
+                    <!--            <div class="col-1"></div>-->
+                    <div class="indicator" id="indicator1">
+                        <svg></svg>
+                    </div>
+                    <div class="col-6" id="map"></div>
+                    <div class="col-3" id="detail"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1 indicator" id="indicator2">
+                        <svg></svg>
+                    </div>
+                    <div class="col-6" id="map2"></div>
+                </div>
+            </div>
+            <p><div style="color:#888"> &nbsp;&nbsp;&nbsp;&nbsp;Map Disclaimer&#58;&nbsp;MapThe boundaries and names shown and the designations used on this map do not imply the expression of any opinion whatsoever on the part of the project team concerning the legal status of any country, territory, city, or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. Lines on maps represent approximate border lines for which there may not yet be full agreement. No implication regarding political or terminological status should be drawn from this arrangement as it is purely a function of technical and graphical limitations.<br /><br /><br /><br /><br /><br /></div></p>
+        </div>
+        <div class="jumbotron " id="graph2">
+            <h1>Normal weight, overweight, and obesity among adults</h1>
+            <p>The visualization of the this graph shows the reader the distribution of different weight group from 1988 to 2014. We can see that the number of Americans who are overweight or obese continues to reach shocking highs, with some estimates that more than two-thirds of American adults are now overweight or obese.</p>
+            <div id="interact-stack-area" class="center-block">
+                <svg width="1100" , height="600"></svg>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.3/bootstrap-slider.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="http://d3js.org/topojson.v2.min.js"></script>
+    <script src="stackedarea.js"></script>
+    <script src="map.js"></script>
+</body>
+
+</html>
